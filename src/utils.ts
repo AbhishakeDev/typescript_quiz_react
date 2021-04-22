@@ -1,0 +1,2 @@
+//this function basically randomises the position of the array elements so that the array answers are not always at the same position
+export const shuffleArray = (array: any[]) => [...array].sort(() => Math.random() - 0.5);
